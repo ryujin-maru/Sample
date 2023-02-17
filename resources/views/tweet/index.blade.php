@@ -1,6 +1,6 @@
 <x-layout>
     <x-tweet.single>
-        <h1 class="text-center text-blue-500 text-4xl font-bold mt-8 mb-8">つぶやきアプリ</h1>
+        <h1 class="text-center text-blue-500 text-3xl font-bold mt-8 mb-8">つぶやきアプリ</h1>
         <x-tweet.form></x-tweet.form>
         <x-tweet.ajax></x-tweet.ajax>
         <x-tweet.list :tweets=$tweets></x-tweet.list>
